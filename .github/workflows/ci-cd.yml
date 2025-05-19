@@ -26,4 +26,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest Flask/tests/
+          PYTHONPATH=. pytest Flask/tests/
